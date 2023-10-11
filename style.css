@@ -1,0 +1,43 @@
+body {
+       font-family: 'Verdana', sans-serif;
+}
+
+.container {
+       max-width: 1140px;
+       margin: 0 auto;
+}
+
+.container div, form > select{
+       display: inline-block;
+}
+
+
+input[type = number] {
+       padding: 12px 24px;
+       outline: none;
+       border-radius: 8px;
+       border: 2px solid #3ea4df;
+}
+
+input[type = number]:focus {
+       border: 2px solid #2e8bc0;
+}
+
+select {
+       display: block;
+       margin: 8px;
+}
+
+input[disabled] {
+       border: 2px solid #bdbdbd;
+}
+
+label {
+       display: block;
+       margin: 8px 0;
+}
+
+button {
+       margin: 8px;
+       padding: 8px 16px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Конвентер валют</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+       <div class="container">
+              <h1>Конвентер валют</h1>
+
+              <form action="" method="GET">
+                     <div class="left-block">
+                            <label for="have">У меня есть</label>
+                            <select name="currencyHave" id="currencyHave">
+                                   <option value="0.0544">Молдавский лей</option>
+                                   <option value="1">Доллар</option>
+                                   <option value="1.0979">Евро</option>
+                                   <option value="1.4478">Фунты стерлингов</option>
+                            </select>
+                            <input type="number" min="0" max="10000000" name="have" id="have" placeholder="Введите сумму">
+                     </div>
+                     <select name="currencyConvert" id="currencyConvert">
+                            <option value="18.395">Молдавский лей</option>
+                            <option value="1">Доллар</option>
+                            <option value="0.9108">Евро</option>
+                            <option value="0.7583">Фунты стерлингов</option>
+                     </select>
+                     <div class="right-block">
+                            <label for="result">Получаю</label>
+                            <input type="number" disabled name="result" id="result">
+                     </div>
+                     <br>
+                     <button type="submit">Расчитать</button>
+                     <button type="reset">Стереть</button>
+
+              </form>
+       </div>
+
+       <script src="script.js"></script>
+</body>
+
+</html>
