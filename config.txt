@@ -1,0 +1,2 @@
+buildversion - 2.0 
+adapterversion - 1.0
